@@ -1,9 +1,9 @@
-# SpectraPrivata# Acquisizione Dati 
+# Acquisizione Dati 
 Guida all'uso dei dispositivi per l'acquisizione di dati...
 
-## Table of Contents
+## Indice
 
-- [Empatica+ ](#empatica+)
+- [Empatica+](#empatica+)
 - [Quick Start](#quick-start)
 - [Game Rules](#game-rules)
 - [Features](#features)
@@ -24,8 +24,15 @@ Guida all'uso dei dispositivi per l'acquisizione di dati...
 - Connessione Internet
 
 ### Configurazione
-1. Accedere al portale [care lab]()
-
+1. Accedere al portale [care lab](https://carelab.empatica.com/) con i dati dello studio.
+2. Nella sezione **partecipants** cliccare sul pulsante **add partecipants** per inserire il numero desiderato di partecipanti.
+- Se volete che il sistema generi automaticamente gli Id dei partecipanti, selezionate Automatic IDS.
+- Se volete potente inserire manualmente l'id per ogni partecipante.
+Verrano create le credenziali di accesso per ogni partecipante. 
+3. Aprire l'app Empatica Care dal dispositivo ed effettuare l'accesso con le credenziali del partecipante da analizzare. Le credenziali possono essere inserite
+automaticamente scannerizzando il qr code creato dal sistema, o inserendo manualmente le credenziali.
+4. Seguire le informazioni a schermo per effettuare il pairing tra dispositivo e bracciale. 
+5. Indossare il bracciale e attendere qualche minuto affinche il dispositivo si stabilizzi. Alla fine di questa procedura tutte le spunte nella schermata di stato diventeranno verdi e nella schermata principale vedremo i dati biometrici attuali.
 ### Clone the Repository
 
 To get the source code, clone this repository using Git:

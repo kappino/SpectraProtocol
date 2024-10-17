@@ -33,6 +33,22 @@ Verrano create le credenziali di accesso per ogni partecipante.
 automaticamente scannerizzando il qr code creato dal sistema, o inserendo manualmente le credenziali.
 4. Seguire le informazioni a schermo per effettuare il pairing tra dispositivo e bracciale. 
 5. Indossare il bracciale e attendere qualche minuto affinche il dispositivo si stabilizzi. Alla fine di questa procedura tutte le spunte nella schermata di stato diventeranno verdi e nella schermata principale vedremo i dati biometrici attuali.
+
+## Emotiv Epoc X - [Manuale Ufficiale](https://emotiv.gitbook.io/epoc-x-user-manual)
+
+### Prerequisiti
+
+- Dongle Emotiv
+- Emotiv Epoc X
+- Computer
+
+### Preparazione del Dispositivo
+
+
+
+
+
+
 ### Clone the Repository
 
 To get the source code, clone this repository using Git:

@@ -31,85 +31,43 @@ Guida all'uso dei dispositivi per l'acquisizione di dati...
 Verrano create le credenziali di accesso per ogni partecipante. 
 3. Aprire l'app Empatica Care dal dispositivo ed effettuare l'accesso con le credenziali del partecipante da analizzare. Le credenziali possono essere inserite
 automaticamente scannerizzando il qr code creato dal sistema, o inserendo manualmente le credenziali.
-4. Seguire le informazioni a schermo per effettuare il pairing tra dispositivo e bracciale. 
-5. Indossare il bracciale e attendere qualche minuto affinche il dispositivo si stabilizzi. Alla fine di questa procedura tutte le spunte nella schermata di stato diventeranno verdi e nella schermata principale vedremo i dati biometrici attuali.
+4. Accendere il bracciale premendo il tasto laterale superiore e seguire le informazioni a schermo per effettuare il pairing tra dispositivo e bracciale. 
+5. Indossare il bracciale sul braccio non dominante e attendere qualche minuto affinche il dispositivo si stabilizzi. Alla fine di questa procedura tutte le spunte nella schermata di stato diventeranno verdi e nella schermata principale vedremo i dati biometrici attuali.
+La registrazione dei dati avviene in automatico appena il bracciale riconosce il corretto posizionamento, lo schermo del dispostivo diventa chiaro. Nel caso in cui ci siano errori di lettura il bracciale ci avviserà dall'app. 
 
 ## Emotiv Epoc X - [Manuale Ufficiale](https://emotiv.gitbook.io/epoc-x-user-manual)
 
 ### Prerequisiti
 
-- Dongle Emotiv
-- Emotiv Epoc X
-- Computer
+- USB Receiver Dongle
+- EPOC X Headset
+- Soluzione Salina
+- Cavo di ricarica USB-C
 
 ### Preparazione del Dispositivo
-
-
-
-
-
-
-### Clone the Repository
-
-To get the source code, clone this repository using Git:
-
-```bash
-git clone https://github.com/Riccardohihello/sette_e_mezzo.git
-```
-
-### Build
-```bash
-cd sette_e_mezzo
-mvn clean install
-mvn dependency:copy-dependencies
-```
-### Run
-
-After compiling the project, you can run the game from the bin folder:
+1. Idratazione dei Feltrini
+    - Per idratare i feltrini, posizionateli in un bicchiere e aggiungete la soluzione salina.
+    - Quando sono completamente imbevuti, rimuoveteli dal bicchiere, schiacciandoli leggermente per togliere la soluzione in eccesso.
+    - Possono essere ora inseriti nei sensori. 
 ``` bash
-mvn javafx:run
-or
-java --module-path target/dependency --add-modules javafx.controls,javafx.fxml -cp target/sette_e_mezzo-1.0-SNAPSHOT.jar it.uniparthenope.sette_e_mezzo.Main
+    You can also make your own saline solution using 1tsp salt to 1L of water. 
+    This will achieve between 0.7% – 4% w-w sodium chloride; approximately the saltiness of sweat.  
+    We recommend adding a small quantity (< 4% by volume) of household disinfectant — such as 70% isopropyl alcohol. 
+    To reduce the rate of evaporation, also add a couple of drops of glycerin. Both of these products are available from a drugstore or pharmacy.
 ```
+2. Connessione tramite Dongle
+    -Inserire il ricevitore nella porta USB, si accenderà un led sul ricevitore.
+    -Accendere l'headset, emetterà un suono e un led accanto al pulsante di accensione si illuminerà.
+    -L'effettiva connessione tra dongle e headset sarà confermata dall'accensione di un secondo led sul ricevitore.
 
-## Quick Start
-1. **New Game**: Start a new game, you can select the number of players and modify their names.
-2. **Save/Load Game**: You can save the game state and resume where you left off.
-3. **Computer Stats**: See how many wins has the computer.
-4. **Statistics**: At the end of the game, player stats are displayed.
+3. Indossare l'headset
+    -Aprire l'app EmotivPro e seguire le indicazioni di montaggio.
+    -Nel caso in cui il partecipante abbia capelli folti bisogna farsi spazio fino al cuoio capelluto
+     per garantire il miglior contatto possibile col sensore.
 
-## Game Rules
-- The goal is to reach a score as close as possible to 7.5 without exceeding it.
-- Each player can request additional cards or stop.
-- If a player's score exceeds 7.5, they automatically lose.
-- The game ends when all players either stop or lose.
 
-## Features
-- **Save and Load** game sessions using the **Memento** desing pattern.
-- AI for computer-controlled dealer behavior.
-- Leaderboard to view past games and player statistics.
-- Graphical User Interface (UI) that allows managing all phases of the game intuitively.
 
-## Project Structure
+###References
+- [Empatica Healt Monitoring Platform](https://s3.amazonaws.com/box.empatica.com/manuals/embraceplus_care/v1.3/en/EHMP_PatientInstructionsForUse-en-UM-74-Rev%205.0.pdf)
+- [Emotiv Epoc X User Manual](https://emotiv.gitbook.io/epoc-x-user-manual)
 
-``` less
-src/
-└── main/
-    └── java/
-        └── it/uniparthenope/sette_e_mezzo/
-            ├── Game        // Main game logic
-            ├── Player      // Represents a player
-            ├── Deck        // Manages the deck of cards
-            ├── Card        // Represents a single card
-            ├── GameUI      // User interface
-            ├── Memento     // Handles game state saving/loading
-            └── Main.java   // Entry point of the program
-
-```
-## Contributing
-
-Contributions and suggestions are welcome! Feel free to open a pull request or report issues in the issues section of the repository.
-
-## License
-
-This project is distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See the LICENSE file for more information.

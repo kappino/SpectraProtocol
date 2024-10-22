@@ -57,7 +57,11 @@ La registrazione dei dati avviene in automatico appena il bracciale riconosce il
     - Nel caso in cui il partecipante abbia capelli folti bisogna farsi spazio fino al cuoio capelluto
       per garantire il miglior contatto possibile col sensore.
 
-
+### Problemi Comuni
+1. Scarsa Contact Quality del caschetto
+   - L'eeg quality può anche essere non perfetta ma al fine del corretto funzionamento bisogna ottenere il massimo
+     contatto tra cuoio capelluto e sensori. Per posizionare correttamente i sensori, aiutarsi con la mappa fornita nell'app durante la configurazione
+     e lavorare sui singoli sensori. Aggiustarne il posizionamento, spostando i capelli sottostanti finchè il sensore non raggiunge il contatto massimo (colore verde).
 
 ### References
 - [Empatica Healt Monitoring Platform](https://s3.amazonaws.com/box.empatica.com/manuals/embraceplus_care/v1.3/en/EHMP_PatientInstructionsForUse-en-UM-74-Rev%205.0.pdf)

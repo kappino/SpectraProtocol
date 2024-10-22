@@ -2,8 +2,8 @@
 Guida all'uso dei dispositivi per l'acquisizione di dati...
 
 ## Indice
-- [Empatica+](#empatica+)
-- [Emotiv Epoc X](#emotiv)
+- [Empatica+](#Empatica+)
+- [Emotiv Epoc X](#Epocx)
 
 
 
@@ -28,7 +28,7 @@ automaticamente scannerizzando il qr code creato dal sistema, o inserendo manual
 5. Indossare il bracciale sul braccio non dominante e attendere qualche minuto affinche il dispositivo si stabilizzi. Alla fine di questa procedura tutte le spunte nella schermata di stato diventeranno verdi e nella schermata principale vedremo i dati biometrici attuali.
 La registrazione dei dati avviene in automatico appena il bracciale riconosce il corretto posizionamento, lo schermo del dispostivo diventa chiaro. Nel caso in cui ci siano errori di lettura il bracciale ci avviserà dall'app. 
 
-## Emotiv Epoc X - [Manuale Ufficiale](https://emotiv.gitbook.io/epoc-x-user-manual)
+## Epoc X
 
 ### Prerequisiti
 

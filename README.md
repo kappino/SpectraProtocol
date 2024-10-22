@@ -4,6 +4,7 @@ Guida all'uso dei dispositivi per l'acquisizione di dati...
 ## Indice
 - [Empatica+](#Empatica+)
 - [Emotiv Epoc X](#Emotiv-Epoc-X)
+- [Problemi Comuni](#Problemi-Comuni)
 - [Manuali Ufficiali](#References)
 
 

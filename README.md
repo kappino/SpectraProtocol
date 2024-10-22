@@ -23,7 +23,7 @@ Questa guida fornisce istruzioni dettagliate sull'uso dei dispositivi, **Empatic
 1. Accedere al portale [care lab](https://carelab.empatica.com/) con i dati dello studio.
 2. Nella sezione **participants** cliccare sul pulsante **add participants** per inserire il numero desiderato di partecipanti.
     - Se si desidera che il sistema generi automaticamente gli Id dei partecipanti, selezionare Automatic IDS.
-    - Se si desidera, è possibile inserire manualmente l'id per ogni partecipante.
+    - Altrimenti è possibile inserire manualmente l'id per ogni partecipante.
     Verranno create le credenziali di accesso per ogni partecipante.
 3. Aprire l'app Empatica Care dallo smartphone ed effettuare l'accesso con le credenziali del partecipante. Le credenziali possono essere inserite automaticamente scannerizzando il QR code creato dal sistema o inserendo manualmente le credenziali.
 4. Accendere il bracciale premendo il tasto laterale superiore e seguire le informazioni a schermo per effettuare il pairing tra smartphone e bracciale.

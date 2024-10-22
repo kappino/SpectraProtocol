@@ -2,15 +2,8 @@
 Guida all'uso dei dispositivi per l'acquisizione di dati...
 
 ## Indice
-
 - [Empatica+](#empatica+)
-- [Quick Start](#quick-start)
-- [Game Rules](#game-rules)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
+- [Emotiv Epoc X](#emotiv)
 
 
 
@@ -43,18 +36,14 @@ La registrazione dei dati avviene in automatico appena il bracciale riconosce il
 - EPOC X Headset
 - Soluzione Salina
 - Cavo di ricarica USB-C
+- Computer
 
 ### Preparazione del Dispositivo
 1. Idratazione dei Feltrini
     - Per idratare i feltrini, posizionateli in un bicchiere e aggiungete la soluzione salina.
     - Quando sono completamente imbevuti, rimuoveteli dal bicchiere, schiacciandoli leggermente per togliere la soluzione in eccesso.
-    - Possono essere ora inseriti nei sensori. 
-``` bash
-    You can also make your own saline solution using 1tsp salt to 1L of water. 
-    This will achieve between 0.7% – 4% w-w sodium chloride; approximately the saltiness of sweat.  
-    We recommend adding a small quantity (< 4% by volume) of household disinfectant — such as 70% isopropyl alcohol. 
-    To reduce the rate of evaporation, also add a couple of drops of glycerin. Both of these products are available from a drugstore or pharmacy.
-```
+    - Possono essere ora inseriti nei sensori.
+    - 
 2. Connessione tramite Dongle
     - Inserire il ricevitore nella porta USB, si accenderà un led sul ricevitore.
     - Accendere l'headset, emetterà un suono e un led accanto al pulsante di accensione si illuminerà.
@@ -67,7 +56,7 @@ La registrazione dei dati avviene in automatico appena il bracciale riconosce il
 
 
 
-###References
+### References
 - [Empatica Healt Monitoring Platform](https://s3.amazonaws.com/box.empatica.com/manuals/embraceplus_care/v1.3/en/EHMP_PatientInstructionsForUse-en-UM-74-Rev%205.0.pdf)
 - [Emotiv Epoc X User Manual](https://emotiv.gitbook.io/epoc-x-user-manual)
 

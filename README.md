@@ -56,14 +56,14 @@ La registrazione dei dati avviene in automatico appena il bracciale riconosce il
     To reduce the rate of evaporation, also add a couple of drops of glycerin. Both of these products are available from a drugstore or pharmacy.
 ```
 2. Connessione tramite Dongle
-    -Inserire il ricevitore nella porta USB, si accenderà un led sul ricevitore.
-    -Accendere l'headset, emetterà un suono e un led accanto al pulsante di accensione si illuminerà.
-    -L'effettiva connessione tra dongle e headset sarà confermata dall'accensione di un secondo led sul ricevitore.
+    - Inserire il ricevitore nella porta USB, si accenderà un led sul ricevitore.
+    - Accendere l'headset, emetterà un suono e un led accanto al pulsante di accensione si illuminerà.
+    - L'effettiva connessione tra dongle e headset sarà confermata dall'accensione di un secondo led sul ricevitore.
 
 3. Indossare l'headset
-    -Aprire l'app EmotivPro e seguire le indicazioni di montaggio.
-    -Nel caso in cui il partecipante abbia capelli folti bisogna farsi spazio fino al cuoio capelluto
-     per garantire il miglior contatto possibile col sensore.
+    - Aprire l'app EmotivPro e seguire le indicazioni di montaggio.
+    - Nel caso in cui il partecipante abbia capelli folti bisogna farsi spazio fino al cuoio capelluto
+      per garantire il miglior contatto possibile col sensore.
 
 
 

@@ -1,7 +1,7 @@
 # Acquisizione Dati 
-Questa guida fornisce istruzioni dettagliate sull'uso dei dispositivi , **Empatica+** e **Emotiv Epoc X**, per l'acquisizione dei dati biometrici ed EEG. 
-    - **Empatica+** è un braccialetto smart che rileva vari dati fisiologici, come battito cardiaco, pressione sanguina e l'attività elettrodermica (EDA).
-    - **Emotiv Epoc X** è un caschetto EEG wireless che misura l'attività cerebrale attraverso sensori non invasivi 
+Questa guida fornisce istruzioni dettagliate sull'uso dei dispositivi , **Empatica+** e **Emotiv Epoc X**, per l'acquisizione dei dati biometrici ed EEG.
+- **Empatica+** è un braccialetto smart che rileva vari dati fisiologici, come battito cardiaco, pressione sanguina e l'attività elettrodermica (EDA).
+- **Emotiv Epoc X** è un caschetto EEG wireless che misura l'attività cerebrale attraverso sensori non invasivi 
     posizionati sulla testa.
 ## Indice
 - [Empatica+](#Empatica+)

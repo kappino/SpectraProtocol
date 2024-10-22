@@ -15,7 +15,7 @@ Questa guida fornisce istruzioni dettagliate sull'uso dei dispositivi, **Empatic
 
 ### Prerequisiti
 - Bracciale Smart Empatica+
-- Dispositivo con [Empatica Care App](https://support.empatica.com/hc/en-us/articles/9843547409821-Download-the-Care-App)
+- Smartphone con [Empatica Care App](https://support.empatica.com/hc/en-us/articles/9843547409821-Download-the-Care-App)
 - Computer
 - Connessione Internet
 

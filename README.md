@@ -3,7 +3,7 @@ Guida all'uso dei dispositivi per l'acquisizione di dati...
 
 ## Indice
 - [Empatica+](#Empatica+)
-- [Emotiv Epoc X](#Epocx)
+- [Emotiv Epoc X](#Epoc-X)
 
 
 

@@ -2,7 +2,7 @@
 
 Questa guida fornisce istruzioni dettagliate sull'uso dei dispositivi, **Empatica+** e **Emotiv Epoc X**, per l'acquisizione dei dati biometrici ed EEG.
 
-- **Empatica+** è un braccialetto smart che rileva vari dati fisiologici, come battito cardiaco, pressione sanguigna e l'attività elettrodermica (EDA).
+- **Empatica+** è un braccialetto smart che rileva vari dati fisiologici, come il battito cardiaco, la pressione sanguigna e l'attività elettrodermica (EDA).
 - **Emotiv Epoc X** è un caschetto EEG wireless che misura l'attività cerebrale attraverso sensori non invasivi posizionati sulla testa.
 
 ## Indice
@@ -21,14 +21,14 @@ Questa guida fornisce istruzioni dettagliate sull'uso dei dispositivi, **Empatic
 
 ### Configurazione
 1. Accedere al portale [care lab](https://carelab.empatica.com/) con i dati dello studio.
-2. Nella sezione **partecipants** cliccare sul pulsante **add partecipants** per inserire il numero desiderato di partecipanti.
-    - Se volete che il sistema generi automaticamente gli Id dei partecipanti, selezionate Automatic IDS.
-    - Se volete, potete inserire manualmente l'id per ogni partecipante.
+2. Nella sezione **participants** cliccare sul pulsante **add participants** per inserire il numero desiderato di partecipanti.
+    - Se si desidera che il sistema generi automaticamente gli Id dei partecipanti, selezionare Automatic IDS.
+    - Se si desidera, è possibile inserire manualmente l'id per ogni partecipante.
     Verranno create le credenziali di accesso per ogni partecipante.
 3. Aprire l'app Empatica Care dallo smartphone ed effettuare l'accesso con le credenziali del partecipante. Le credenziali possono essere inserite automaticamente scannerizzando il QR code creato dal sistema o inserendo manualmente le credenziali.
 4. Accendere il bracciale premendo il tasto laterale superiore e seguire le informazioni a schermo per effettuare il pairing tra smartphone e bracciale.
 5. Indossare il bracciale sul braccio non dominante e attendere qualche minuto affinché il bracciale si stabilizzi. Alla fine di questa procedura tutte le spunte nella schermata di stato diventeranno verdi e nella schermata principale vedremo i dati biometrici attuali.  
-La registrazione dei dati avviene in automatico appena il bracciale riconosce il corretto posizionamento. Se ci sono errori di lettura, il bracciale ci avviserà tramite l'app.
+La registrazione dei dati avviene in automatico non appena il bracciale riconosce il corretto posizionamento. Se ci sono errori di lettura, il bracciale ci avviserà tramite l'app.
 
 ## Emotiv Epoc X
 
@@ -42,19 +42,19 @@ La registrazione dei dati avviene in automatico appena il bracciale riconosce il
 
 ### Preparazione del Dispositivo
 1. **Idratazione dei Feltrini**
-    - Per idratare i feltrini, posizionateli in un bicchiere e aggiungete la soluzione salina.
-    - Quando sono completamente imbevuti, rimuoveteli dal bicchiere, schiacciandoli leggermente per togliere la soluzione in eccesso.
+    - Per idratare i feltrini, posizionarli in un bicchiere e aggiungere la soluzione salina.
+    - Quando sono completamente imbevuti, rimuoveri dal bicchiere, schiacciandoli leggermente per togliere la soluzione in eccesso.
     - Possono essere ora inseriti nei sensori.
     
 2. **Connessione tramite Dongle**
-    - Inserire il ricevitore nella porta USB, si accenderà un led sul ricevitore.
-    - Accendere l'headset, emetterà un suono e un led accanto al pulsante di accensione si illuminerà.
-    - L'effettiva connessione tra dongle e headset sarà confermata dall'accensione di un secondo led sul ricevitore.
+    - Inserire il ricevitore nella porta USB, si accenderà un LED sul ricevitore.
+    - Accendere l'headset, emetterà un suono e un LED accanto al pulsante di accensione si illuminerà.
+    - L'effettiva connessione tra dongle e headset sarà confermata dall'accensione di un secondo LED sul ricevitore.
 
 3. **Indossare l'headset**
     - Effettuare l'accesso su Emotiv Launcher.
     - Aprire l'app EmotivPro e seguire le indicazioni di montaggio.
-    - Nel caso in cui il partecipante abbia capelli folti, è necessario fare spazio fino al cuoio capelluto per garantire il miglior contatto possibile col sensore.
+    - Nel caso in cui il partecipante abbia capelli folti, è necessario farsi spazio fino al cuoio capelluto per garantire il miglior contatto possibile col sensore.
 
 ## Problemi Comuni
 

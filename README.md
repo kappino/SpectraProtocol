@@ -8,6 +8,7 @@ Questa guida fornisce istruzioni dettagliate sull'uso dei dispositivi, **Empatic
 ## Indice
 - [Empatica+](#Empatica)
 - [Emotiv Epoc X](#Emotiv-Epoc-X)
+- [Procedura Test](#Procedura-Test)
 - [Problemi Comuni](#Problemi-Comuni)
 - [Manuali Ufficiali](#Manuali-Ufficiali)
 
@@ -55,11 +56,32 @@ La registrazione dei dati avviene in automatico non appena il bracciale riconosc
     - Effettuare l'accesso su Emotiv Launcher.
     - Aprire l'app EmotivPro e seguire le indicazioni di montaggio.
     - Nel caso in cui il partecipante abbia capelli folti, è necessario farsi spazio fino al cuoio capelluto per garantire il miglior contatto possibile col sensore.
-
+## Procedura Test
+### Prerequisiti
+- Creare il loop fra la porta COM8 e COM7
+- Impostare emotiv pro in ascolto sulla porta COM7
+- Aprire il gioco sull'emulatore
+- Aprire OBS Studio
+### Fasi Da Seguire
+1. **Montaggio Bracciale**
+   - Con collegamento su app in base a credenziali pregenerate.
+3. **Montaggio Headset**
+4. **Avvio Registrazione Obs**
+    - Avviare la registrazione video e audio tramite hotkey ctrl+r
+5. **Avvio Registrazione Emotiv**
+    - Inserendo id paziente e spuntando la baseline.
+6. **Fase Gioco**
+    - Riaprire l'emulatore, **inserire id paziente** e iniziare i livelli (durata ca 7 minuti).
+7. **Fase Video**
+   - Lanciare script python per visualizzare clip video e premere **avvia**
+8. **Terminare Registrazioni**
+   - Fermare OBS con hotkey ctrl+s e manualmente su emotiv pro. 
 ## Problemi Comuni
 
 1. **Scarsa qualità del contatto del caschetto**
    - La qualità del segnale EEG potrebbe non essere perfetta, ma per un funzionamento ottimale è necessario ottenere il massimo contatto tra cuoio capelluto e sensori. Utilizzare la mappa fornita nell'app durante la configurazione per posizionare correttamente i sensori, spostando i capelli sottostanti finché il sensore non raggiunge il contatto massimo (colore verde).
+2. **Emotiv Pro non riceve i marker dal player video**
+    - Controllare che sia stato creato il loop fra la porta COM8 e la porta COM7, nel caso in cui il loop sia già attivo, chiudere emotiv pro, chiudere il player e lanciare lo script flush_port.py. Rieseguire il setup della porta su emotiv pro e lanciare di nuovo il videoplayer.
 
 ## Manuali Ufficiali
 - [Empatica Health Monitoring Platform](https://s3.amazonaws.com/box.empatica.com/manuals/embraceplus_care/v1.3/en/EHMP_PatientInstructionsForUse-en-UM-74-Rev%205.0.pdf)
